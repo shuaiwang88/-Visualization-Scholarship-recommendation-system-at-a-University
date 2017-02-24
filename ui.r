@@ -40,7 +40,7 @@ shinyUI(pageWithSidebar(
       tags$style(type='text/css', ".span4 { max-width: 250px; }")
     ),
     
-    img(src="WSUlogo.jpg",height=128,width=200),
+   
     selectInput(inputId = "act", label = "ACT scores:", choices = act_list, selected = 24),
     selectInput(inputId = "gpa", label = "High School GPA Score",  choices = gpa_list,  selected = 3.5),
     
